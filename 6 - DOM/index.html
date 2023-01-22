@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--CSS y estilos de codigo HTML-->
+        <link rel="stylesheet" type="text/css" href="estilo.css">
         <meta charset="utf-8">
         <title></title>
     </head>
 <body>
-    <!--<p id="parrafo">Seguime en @SoyDalto</p>-->
+    <!--<p id="parrafo">mensaje de prueba</p>-->
 
     <!--<input type="range" class="rangoEtario">-->
     <!--<label>Rango de Edad</label>-->
@@ -17,12 +19,15 @@
 
     <!--<p class="titulo">Elemento a <b style="visibility: hidden;">Modificar</b></p>-->
 
+    <!--Formulario con el que capturo los datos para poder enviarlos al servidor-->
     <div class="flex-container">
     </div>
     <form>
-        <button type="submit" name="data" value="comprar">Comprar</button>
+        <input type="hidden" name="data" class="key-data">
+        <input type="submit" value="comprar" class="send-button">
     </form>
 
+    <!--En este archivo esta localizado el codigo JS el ejercicio-->
     <script src="ejercicio1.js">
     </script>
 </body>
